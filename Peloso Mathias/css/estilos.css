@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bitter:ital,wght@0,300;1,600&display=swap');
+
+
+
+
+
+
+h1 {
+
+    
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 7em;
+    color: #DBDBDB;
+    
+    
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+body {
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0vh;
+    
+font-family: 'Bitter', serif;
+        font-size: 80%;
+
+}
+
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    color: #DBDBDB;
+    
+}
+
+#welcome {
+    font-weight: 300;
+    font-size: 2em;
+    color: #DBDBDB;
+    justify-content: right;
+    display: flex;
+}
+
+
+
+
+
+
+@media (max-width:768px){
+
+    body{ font-size: 70%}
+}
+
+
